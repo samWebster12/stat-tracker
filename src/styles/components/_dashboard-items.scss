@@ -1,0 +1,21 @@
+.dashboard-items {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 1rem 1rem 1rem .5rem;
+
+
+    &__headers {
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: $color-superLightGrey;
+        border-top: 1px solid #eef0f5;
+        border-bottom: 1px solid #949597;
+        padding: 1rem 0;
+        color: $color-darkGrey;
+
+        &__name {
+            margin-left: .7rem;
+        }
+        
+    }
+}

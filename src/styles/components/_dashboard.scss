@@ -1,0 +1,13 @@
+.dashboard {
+    &__button{
+        margin: 5rem 2rem;
+        padding: 2rem 6rem;
+        font-size: 2.5rem;
+        font-weight: 500;
+
+        &-link {
+            text-decoration: none;
+            color: $color-lightGrey;
+        }
+    }
+}

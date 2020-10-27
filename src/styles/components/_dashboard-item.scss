@@ -1,0 +1,38 @@
+.dashboard-item {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: $color-superLightGrey;
+    border-top: 1px solid #eef0f5;
+    border-bottom: 1px solid #eef0f5;
+    padding: 1rem 0;
+    color: $color-darkGrey;
+
+    &__name {
+        margin-left: .7rem;
+    }
+
+    &__edit-btn,
+    &__remove-btn {
+        width: 50%;
+        justify-self: center;
+        background-color:  #1eb760;
+        border: none;
+        border-radius: 2px;
+        color: $color-lightGrey;
+        transition: .1s all ease-in-out;
+
+        &__text {
+            text-decoration: none;
+            color: $color-superLightGrey;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__remove-btn {
+        width: 80%;
+        background-color: red;
+    }
+}
